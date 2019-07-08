@@ -1,0 +1,10 @@
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\bin\Debug\LaserTurret.exe.config
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\bin\Debug\LaserTurret.exe
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\bin\Debug\LaserTurret.pdb
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.csprojAssemblyReference.cache
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.Form1.resources
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.Properties.Resources.resources
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.csproj.GenerateResource.cache
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.csproj.CoreCompileInputs.cache
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.exe
+C:\Users\Brendan\source\repos\LaserTurret\LaserTurret\obj\Debug\LaserTurret.pdb
