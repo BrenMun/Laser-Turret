@@ -27,7 +27,7 @@ namespace LaserTurret
         }
             public void writeToPort(Point coordinates) //set up write data for arduino
             {
-            if (watch.ElapsedMilliseconds > 15)     //limits amount of serial data being sent, relsoving latencey issue 
+            if (watch.ElapsedMilliseconds > 15)     //limits amount of serial data being sent to every 15ms, relsoving latencey issue 
             {
                 watch = Stopwatch.StartNew();
                 port.Write(String.Format("X{0}Y{1}",            //format xy coordinates using string
