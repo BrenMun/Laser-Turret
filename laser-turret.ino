@@ -6,8 +6,8 @@ String serialData;
 
 void setup() 
 {
-  servoX.attach(12);
-  servoY.attach(13);
+  servoX.attach(12);   //assign servo x to pin 12
+  servoY.attach(13);   //assign servo y to pin 13
   Serial.begin(9600);
   Serial.setTimeout(10);
 }
@@ -19,8 +19,8 @@ void serialEvent()
 {                   
   serialData = Serial.readString();
 
-  servoX.write(parseDataX(serialData));  //write data onto servo x
-  servoY.write(parseDataY(serialData));
+  servoX.write(parseDataX(serialData));  //write parsed data onto servo x
+  servoY.write(parseDataY(serialData));  //write parsed data onto servo y
   
 }
 
