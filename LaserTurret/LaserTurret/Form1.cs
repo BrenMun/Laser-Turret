@@ -25,8 +25,8 @@ namespace LaserTurret
         {
             writeToPort(new Point(e.X, e.Y));   //pass event data
         }
-            public void writeToPort(Point coordinates) //set up write data for arduino
-            {
+        public void writeToPort(Point coordinates) //set up write data for arduino
+        {
             if (watch.ElapsedMilliseconds > 15)     //limits amount of serial data being sent to every 15ms, relsoving latencey issue 
             {
                 watch = Stopwatch.StartNew();
@@ -37,7 +37,7 @@ namespace LaserTurret
                 //due to the orientation of the servos, the turret moved opposite to the movement of the mouse
                 //Therefore, I added "180 -" to invert the direction resolving the issue
             }
-             }
+         }
        
     }
 }
