@@ -32,7 +32,6 @@ int parseDataY (String data)
   return data.toInt();
 }
 void serialEvent() 
-
 {                   
   serialData = Serial.readString(); //used to read out the current the serial string being sent to the arduino
 
