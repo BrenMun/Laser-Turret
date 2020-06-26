@@ -12,8 +12,8 @@ void setup()
   Serial.setTimeout(10);  //set serial timeout to 10ms (default is 1000ms between each command)
 }
 
-/*Position Data is sent to the arduino as a string with the format "X ... Y ..." - where "X" and "Y" indicate the coordinate and "..." being the values 
-  corresponding to the x and y coordinates. The data needs to be parsed so that only the relevant values are written onto the X and Y servos*/
+/*Position Data is sent to the arduino via serial as a string with the format "X ... Y ..." - where "X" and "Y" indicate the coordinate and "..." being the 
+  values corresponding to the x and y coordinates. The data needs to be parsed so that only the relevant values are written onto the X and Y servos*/
 
 
 //parsing for the X servo involves removing all the subsequent Y data as well as the X index beforehand, leaving only the X coordinate values. 
